@@ -1,2 +1,30 @@
 /* Styles go beneath here! */
+body{
+    background-color: rgb(238,238,238);
+}
 
+img, figcaption{
+    width:60%;
+    height: 85%;
+    background-color:white;
+    margin:0 300px;
+
+}
+
+header,h2, footer{
+    text-align: center;
+}
+
+section{
+    padding:10px;
+}
+
+ul, blockquote{
+    max-width: 400px;
+    line-height: 40px;          /*makes line height smaller*/
+    margin:0 auto;
+}
+
+blockquote{
+    font-style: italic;
+}
